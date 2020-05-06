@@ -1,0 +1,6 @@
+<script>
+  import { goto } from "@sveltech/routify";
+  $goto("../auth/sign-in");
+</script>
+
+<!-- routify:options index=false -->

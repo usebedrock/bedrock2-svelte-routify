@@ -1,0 +1,30 @@
+<script>
+
+  let panels = [1,2,3];
+
+</script>
+
+<div class="u-m-2">
+
+  <div class="c-columns">
+
+    <div class="c-columns__column">
+
+      {#each panels as panel}
+       <div class="u-mb-2">
+         <div class="c-panel">
+           <div class="u-m-2">
+             <h3 class="c-h4">Panel title</h3>
+             <p>I am a panel...</p>
+           </div>
+         </div>
+       </div>
+       {/each}
+
+    </div>
+    <div class="c-columns__column">
+
+    </div>
+  </div>
+
+</div>
